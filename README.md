@@ -1,8 +1,5 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# theterminalguy
+theterminalguy's blog posts deployed on surge CDN
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+[theterminalguy.surge.sh](http://theterminalguy.surge.sh/)
 
-## Running in development
-`gatsby develop`

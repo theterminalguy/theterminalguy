@@ -4,6 +4,9 @@ import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
 
+require("prismjs/themes/prism-solarizedlight.css");
+
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props

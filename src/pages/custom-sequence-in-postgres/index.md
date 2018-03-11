@@ -10,7 +10,7 @@ The goal is to have this column populated with sequential numbers ranging from *
 
 Here is how I solved that problem:
 
-```
+```sql
 CREATE SEQUENCE basic_matrices_position_seq
 ALTER SEQUENCE basic_matrices_position_seq RESTART WITH 1
 
@@ -20,8 +20,9 @@ FROM (SELECT id FROM basic_matrices ORDER BY id) sub
 WHERE bm.id = sub.id
 
 DROP SEQUENCE basic_matrices_position_seq
-```
 
+```
+\
 **First**, I created a named sequence in postgres.
 
 **Next**, I reset the sequence to start counting from 1.

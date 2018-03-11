@@ -5,7 +5,7 @@ date: "2017-03-01T23:46:37.121Z"
 
 It turns out that uploading file with react is pretty easy and not different from the way it’s done in plain JavaScript. Let’s do it now
 
-```
+```javascript
 class FileUploader extends React.Component {
   state = { file: null }
   handleFileChange = (e) => {
@@ -25,12 +25,12 @@ class FileUploader extends React.Component {
   }
   render(){
     return(
-        &lt;form&gt;
-        &lt;input type=&quot;file&quot; onChange={this.handleFileChange}/&gt;
-        &lt;input type=&quot;submit&quot; onClick={this.handleUpload}
-        value=&quot;Upload File&quot; /&gt;
-        &lt;/form&gt;
-        )
+      <form>
+        <input type="file" onChange={this.handleFileChange}/>
+        <input type="submit" onClick={this.handleUpload} 
+               value="Upload File" />
+      </form>
+      )
   }
 }
 ```

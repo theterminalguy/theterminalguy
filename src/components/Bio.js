@@ -24,7 +24,7 @@ class Bio extends React.Component {
 
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Damian Simon Peter`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -34,7 +34,8 @@ class Bio extends React.Component {
           }}
         /> 
         <p>
-          Written by <strong>Damian Simon Peter</strong> who lives in Lagos but works in <a href="https://www.hingeto.com/">Oakland, CA</a>.<br />
+          <strong>Damian Simon Peter</strong> is a sofware engineer based in Kitchener-Waterloo, Ontario. 
+      <br />
         <span style={{fontSize: "2em"}}>
           <a href="https://www.instagram.com/theterminalguy/"><InstagramIcon/></a>
           <a href="https://www.facebook.com/theterminalguy/"><FacebookIcon /></a>

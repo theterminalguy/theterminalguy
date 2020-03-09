@@ -34,7 +34,7 @@ class Bio extends React.Component {
           }}
         /> 
         <p>
-          <strong>Damian Simon Peter</strong> is a sofware engineer based in Kitchener-Waterloo, Ontario. 
+          <strong>Damian Simon Peter</strong> is an independent sofware consultant based in Kitchener-Waterloo, Ontario. 
       <br />
         <span style={{fontSize: "2em"}}>
           <a href="https://www.instagram.com/theterminalguy/"><InstagramIcon/></a>

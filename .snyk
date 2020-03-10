@@ -1,0 +1,178 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gatsby > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:extend:20180424':
+    - gatsby-plugin-sharp > potrace > jimp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > potrace > jimp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:hoek:20180212':
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:stringstream:20180511':
+    - gatsby-plugin-sharp > potrace > jimp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > potrace > jimp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:tough-cookie:20170905':
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-10T23:05:22.591Z'
+  'npm:tunnel-agent:20170305':
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2020-03-10T23:05:22.591Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2020-03-10T23:05:22.591Z'

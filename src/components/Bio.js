@@ -46,11 +46,6 @@ class Bio extends React.Component {
           <a href="https://github.com/theterminalguy/"><GithubIcon /></a>
         </span>
       </p>
-
-      <a href="mailto:damiansimonpeter@gmail.com?subject=Pair%20program%20with%20me" title="Pair program with me!">
-      <img src="https://pairprogramwith.me/badge.png"
-      alt="Pair program with me!" />
-      </a>
       </div>
     )
   }

@@ -1,5 +1,5 @@
 # theterminalguy
-theterminalguy's blog posts deployed on surge CDN
+My Blog
 
 [theterminalguy.sh](https://theterminalguy.sh/)
 

@@ -3,14 +3,14 @@ import React from 'react'
 // Import typefaces
 import 'typeface-montserrat'
 import 'typeface-merriweather'
-
-import profilePic from './profile-pic.jpeg'
-import { rhythm } from '../utils/typography'
-
 import InstagramIcon from 'react-icons/lib/fa/instagram'
 import LinkedInIcon from 'react-icons/lib/fa/linkedin-square'
 import TwitterIcon from 'react-icons/lib/fa/twitter-square'
 import GithubIcon from 'react-icons/lib/fa/github-square'
+
+import profilePic from './profile-pic.jpeg'
+import { rhythm } from '../utils/typography'
+import Link from './Link'
 
 class Bio extends React.Component {
   render() {
@@ -33,17 +33,30 @@ class Bio extends React.Component {
             borderRadius: '50%',
           }}
         /> 
+
         <p>
-          <strong>Damian Simon Peter</strong> is a programmer based in Kitchener, Ontario.
-          He currently works for <a href="https://smile.io" target="_blank" rel="noopener">Smile.io</a> as a Backend Developer focused on 
-          <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener"> Ruby</a> and 
-          <a href="https://elixir-lang.org/" target="_blank" rel="noopener"> Elixir</a>
+        Hi, I am <strong>Damian Simon Peter</strong> a software developer based in Waterloo, Ontario. I have spent the past years working for early-stage startups, building backend and frontend applications primarily using 
+        <Link url="https://www.ruby-lang.org/en/"> Ruby</Link> and 
+        <Link url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> JavaScript</Link>. I own a 
+        <Link url="https://system76.com/laptops/galago"> System76 Galago Pro</Link> running 
+        <Link url="https://system76.com/pop"> Pop!_OS</Link> and absolutely love it.
         <br />
         <span style={{fontSize: "2em"}}>
-          <a href="https://www.linkedin.com/in/damian-simon-peter-2775a9100/"><LinkedInIcon /></a>
-          <a href="https://www.instagram.com/theterminalguy/"><InstagramIcon/></a>
-          <a href="https://twitter.com/theterminalguy/"><TwitterIcon /></a>
-          <a href="https://github.com/theterminalguy/"><GithubIcon /></a>
+          <Link url="https://www.linkedin.com/in/damian-simon-peter-2775a9100/">
+            <LinkedInIcon />
+          </Link>
+
+          <Link url="https://www.instagram.com/theterminalguy/">
+            <InstagramIcon/>
+          </Link>
+
+          <Link url="https://twitter.com/theterminalguy/">
+            <TwitterIcon />
+          </Link>
+
+          <Link url="https://github.com/theterminalguy/">
+            <GithubIcon />
+          </Link>
         </span>
       </p>
       </div>

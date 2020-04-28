@@ -29,7 +29,7 @@ if (current_password !== params.current_password) {
 The above will throw a `Match Error` because the user's supplied password does not match their current password
 
 
-Using Elixir's pin operator we can write the above as 
+Using Elixir's [pin operator](https://elixir-lang.org/getting-started/pattern-matching.html#the-pin-operator) we can write the above as 
 
 ```elixir
 current_password = 'secret-1'
@@ -39,7 +39,7 @@ current_password = 'secret-1'
 
 The above will also rais a `MatchError` exception
 
-Explanation
+##### Explanation:
 
 Use the pin operator `^` to pattern match against an existing variable's value. In the Elixir's example above, the variable `new_password` is bound to the first item in the tuple (Elixirs data structure represented with `{}`), rather than rebinding the `current_password` variable, we pattern match against its existing value. 
 

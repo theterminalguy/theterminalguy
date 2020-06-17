@@ -1,6 +1,6 @@
 ---
 title: Setting up a local kubernetes cluster with Minikube and Hyperkit
-date: "2020-06-23T22:12:03.284Z"
+date: "2020-06-17T22:12:03.284Z"
 ---
 
 Working with [GKE](https://cloud.google.com/kubernetes-engine) or any managed Kubernetes service can be fun but having to constantly update deployments and pods specifications on a remote host can be both time and resource consuming as your cloud bill could grow astronomically.

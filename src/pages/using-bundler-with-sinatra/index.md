@@ -18,7 +18,6 @@ To use bundler on your current sinatra application, just create a file `Gemfile`
 
 ```ruby 
 require 'sinatra'
-require 'redis' 
 
 get '/about' do
   halt 200, 'This is a sinatra application'

@@ -19,7 +19,7 @@ Hyperkit will only work on a mac, as it is entirely reliant on [Apple's Hypervis
 
 ## Installing Minikube 
 
-First, check to see if your OS must supports virtualization. On a Mac, run the following command on your terminal to confirm
+First, check to see if your OS dsupports virtualization. On a Mac, run the following command on your terminal to confirm
 
 `sysctl -a | grep -E --color 'machdep.cpu.features|VMX'`
 

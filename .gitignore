@@ -1,8 +1,8 @@
 node_modules/
-public
-.gatsby-context.js
-.DS_Store
-.intermediate-representation/
 .cache/
-*.log
-yarn.lock
+public/
+npm-debug.log
+.eslintcache
+.gatsby-context.js
+.idea
+gatsby-starter-lumen.iml

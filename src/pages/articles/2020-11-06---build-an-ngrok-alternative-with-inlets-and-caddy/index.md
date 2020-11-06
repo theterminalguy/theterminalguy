@@ -1,6 +1,6 @@
 ---
 title: Build an ngrok alternative with Inlets and Caddy
-date: "2020-11-02T22:12:03.284Z"
+date: "2020-11-06T22:12:03.284Z"
 layout: post
 draft: false
 path: "/posts/build-an-ngrok-alternative-with-inlets-and-caddy/"
@@ -188,3 +188,9 @@ systemctl start caddy
 
 4. Now you can start, stop, restart or check the status of both services on your server using the usual systemctl `status`, `start`, `stop`, `restart` followed by the service name  
 
+
+<div align="left">
+  <a href="https://www.youtube.com/watch?v=_Djv2dVUiPM">
+      <img src="https://img.youtube.com/vi/_Djv2dVUiPM/0.jpg" style="width:100%;">
+  </a>
+</div>

@@ -4,7 +4,7 @@ layout: page
 path: "/about"
 ---
 
-Hi, I am Damian Simon Peter, a software developer based in Waterloo, Ontario. I have spent the past years working for early-stage startups, building backend and frontend applications primarily using Ruby and JavaScript. Most of my tinkering is done on a [System76 Galago Pro](https://system76.com/laptops/galago) running [Pop!_OS](https://system76.com/pop).
+Hi, I am Damian Simon Peter. Maker and builder of things. I have spent the past years working for early-stage startups, building backend and frontend applications primarily using Ruby and JavaScript. Most of my tinkering is done on a [System76 Galago Pro](https://system76.com/laptops/galago) running [Pop!_OS](https://system76.com/pop).
 
 ## Experience
 
@@ -17,12 +17,6 @@ In 2014, I heard about Node.js and was super excited. What got me excited was th
 *Books purchased on Amazon - 37.764640, -122.427937, San Francisco, 2017*
 
 ## What am I reading now ?
-
-I am reading several books at the moment. Here is a picture of me holding one of my favorites.
-
-![Books](./me-holding-a-book.jpg)
-
-Other newer books in my collections includes 
 
 1. Wriing and interpreter in Go 
 2. The Hidden Language of Compuer Hardware and Software
